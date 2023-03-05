@@ -1,0 +1,41 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+body{
+  background-color: #e9ebee;
+}
+
+div{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  justify-content: space-between;
+  margin: .9em;
+  position: relative;
+}
+div:hover{
+  transform: scale(1.03);
+}
+div p {
+  font-size: 2.5rem;
+}
+input{
+  width: 500px; 
+  height: 40px;
+}
+::placeholder{
+  font-size: 19px
+}
+button{
+ margin-left:16em ; 
+ padding: 1em;
+}
+button:hover{
+ position: absolute;
+ /* right: 200px ; */
+}
+button:hover{
+ background-color:blue;
+}
+
